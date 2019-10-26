@@ -1,0 +1,518 @@
+/* Start Framework */
+
+body{font-family: 'Open Sans', sans-serif;}
+
+.overlay{
+	background: rgba(49, 55, 61, .7);
+	width: 100%;
+	height: 100%;
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+
+.table{
+	height: 100%;
+	display: table;
+}
+
+.table-row{display: table-row;}
+
+.text-center{text-align: center;}
+
+.upper{text-transform: uppercase;}
+
+.main-color{color: #f7600e;}
+
+.main-background{background-color: #f7600e;}
+
+.hidden{display: none;}
+
+::-webkit-input-placeholder{font-size: 14px;}
+:-moz-input-placeholder{font-size: 14px;}
+:-ms-input-placeholder{font-size: 14px;}
+
+/* End Framework */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Header */
+
+.header{
+	background:url('../images/Laptop-Notebook-Mobile.png');
+	color: #FFF;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.header .navbar{
+	overflow: hidden;
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.header .navbar .logo{font-size: 22px;}
+
+.header .navbar .links{
+	float: right;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.header .navbar .links i{margin-left: 5px;}
+
+.header .intro h1{
+	padding: 20px 0;
+	margin:0;
+	font-size: 50px;
+	font-weight: 800
+}
+
+.header .intro p{
+	margin: 15px 0 20px;
+	line-height: 1.6;
+	font-size: 20px;
+	color: #E2E2E2;
+}
+
+.header .buttons button{
+	background: transparent;
+	padding: 10px 0;
+	width: 180px;
+	font-size: 15px;
+	border: 2px solid #909090;
+	margin: 0 10px;
+	border-radius: 10px;
+	color: #FFF;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+}
+
+.header .buttons button:hover{
+	background-color: #f7600e;
+	border: 2px solid #f7600e;
+	color: #FFF;
+}
+
+.header .arrow{
+	position: absolute;
+	bottom: 27px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0 0 320px;
+}
+
+.header .arrow i{
+	border: 2px solid #787878;
+	border-radius: 50%;
+	height: 33px;
+	width: 33px;
+	line-height: 33px;
+	cursor: pointer;
+}
+
+/* End Header */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Features */
+
+.features{
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.features .box{
+	width: 22%;
+	float: left;
+	margin-right: 4%;
+}
+
+.features .box:last-child{margin-right: 0;}
+
+.features .box i{
+	color: #f7600e;
+	border: 1px solid #f7600e;
+	border-radius: 50%;
+	width: 40%;
+	height: 100%;
+	line-height: 100px;
+}
+
+.features .box i:hover{
+	background-color: #f7600e;
+	border: 1px solid #f7600e;
+	color: #FFF;
+}
+
+.features .box h3{
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #505050;
+}
+
+.features .box p{
+	line-height: 2;
+	color: #888;
+}
+
+/* End Features */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Subscribe */
+
+.subscribe{background:url('../images/Laptop-Notebook-Mobile.png');}
+
+.subscribe .sub-span{
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.subscribe form{
+	padding: 50px 0;
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+.subscribe form input[type="email"]{
+	padding: 0 10px;
+	width: 320px;
+	font-size: 20px;
+	border-radius: 10px;
+	position: relative;
+	top: 2px;
+	border: none;
+	height: 37px;
+	line-height: 37px;
+}
+
+.subscribe form button{
+	padding: 10px;
+	width: 200px;
+	border: 1px s;
+	background-color: #f7600e;
+	border: none;
+	color: #FFF;
+	border-radius: 10px;
+	margin-left: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/* End Subscribe */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Our Works */
+
+.works{padding: 10px 0;}
+
+.works h2{
+	font-weight: 500;
+	font-size: 35px;
+	margin-bottom: 0;
+}
+
+.works h2 ~ p{
+	line-height: 2;
+	margin: 10px 0 40px;
+}
+
+.works .show-more{
+	background: transparent;
+	border: 2px solid #CCC;
+	border-radius: 10px;
+	background-color: #f7600e;
+	color: #FFF;
+	width: 180px;
+	padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.works .show-more:hover{
+	color: #000;
+	border: 2px solid #E2E2E2;
+}
+
+.works .item-box{overflow: hidden;}
+
+.works .item-box .item{
+	float: left;
+	width: 30%;
+	height:350px;
+	margin-left:1.33333%;
+	margin-bottom: 12px;
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+}
+
+.works .item-box .item:hover .over{display: block;}
+
+.works .item-box .item .over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(247, 96, 14, .8);
+	color: #FFF;
+	/*background-color: #f7600e;*/
+	display: none;
+}
+
+.works .item-box .item .over h4{
+	font-size: 28px;
+	margin-top: 90px;
+	margin-bottom: 10px;
+	letter-spacing: 1.5px;
+}
+
+.works .item-box .item .over p{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+
+.works .item-box .item .over button{
+	background-color: transparent;
+	border: 2px solid #FFF;
+	border-radius: 10px;
+	width: 180px;
+	padding: 10px;
+	cursor: pointer;
+	color: #FFF;
+}
+
+.works .item-box .item .over button:hover{
+	background-color: #FFF;
+	border: 2px solid #FFF;
+	color: #f7600e;
+}
+
+/* End Our Works */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Feedbacks */
+
+.feedbacks{background: url('../images/woman-talk-work.png');}
+
+.feedbacks .client{
+	padding: 50px 0;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.feedbacks .client p{
+	line-height: 2;
+	font-style: italic;
+}
+
+.feedbacks .client img{
+	border-radius: 100px;
+}
+
+.feedbacks .fa-chevron-right, .feedbacks .fa-chevron-left{
+	position: absolute;
+	top: 45%;
+	color: #999;
+	cursor: pointer;
+}
+
+.feedbacks .fa-chevron-right{right: 0;}
+
+.feedbacks .fa-chevron-left{left: 0;}
+
+.feedbacks .fa-chevron-right:hover, .feedbacks .fa-chevron-left:hover{color: #f7600e;}
+
+/* End Feedbacks */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Our Team */
+
+.our-team{padding: 10px 0;}
+
+.our-team h2{
+	font-size: 35px;
+	margin-bottom: 0;
+}
+
+.our-team .main-p{
+	margin: 10px 0 40px;
+	line-height: 1.5;
+	color: #666;
+	font-size: 20px;
+}
+
+.our-team .the-team{overflow: hidden;}
+
+.our-team .the-team .person{
+	float: left;
+	width: 24%;
+	margin-left: 1%;
+	color: #888;
+}
+
+.our-team .the-team .person:hover{color: #555;}
+
+.our-team .the-team .person img{
+	width: 250px;
+	height: 250px;
+	filter: gray;
+	filter: grayscale(1);
+}
+
+.our-team .the-team .person:hover img{filter: none;}
+
+.our-team .the-team .person .social-icons i{
+	background-color: #9da1a5;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #FFF;
+	border-radius: 50%;
+}
+
+.our-team .the-team .person:hover .fa-facebook-f{background-color: #3b5998;}
+
+.our-team .the-team .person:hover .fa-twitter{background-color: #1da1f2;}
+
+.our-team .the-team .person:hover .fa-instagram{background-color: #f77737;}
+
+.our-team .the-team .person p{
+	font-size: 15px;
+	color: #888;
+	filter: gray;
+	filter: grayscale(1);
+}
+
+.our-team .the-team .person:hover p{
+	filter: none;
+	color: #000;
+}
+
+/* End Our Team */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Contact Form */
+
+.contact{
+	background: url('../images/Keyboard-Laptop.jpg');
+	background-repeat: no-repeat;
+}
+
+.contact .overlay{
+	padding: 15px 0;
+	color: #FFF;
+}
+
+.contact h2{font-size: 35px}
+
+.contact form{
+	width: 700px;
+	text-align: center;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+.contact form input[type="text"], .contact form input[type="email"]{
+	width: 45%;
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	border: 2px solid #CCC;
+}
+
+.contact form input[type="text"]{float: right;}
+
+.contact form input[type="email"]{float: left;}
+
+.contact form textarea{
+	margin-top: 20px;
+	width: 100%;
+	padding: 10px;
+	height: 140px;
+	border-radius: 10px;
+	border: 2px solid #CCC;
+}
+
+.contact form .info{
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.contact form .info button{
+	float: left;
+	padding: 10px;
+	width: 200px;
+	border: 2px s;
+	background-color: #f7600e;
+	color: #FFF;
+	border: none;
+	border-radius: 10px;
+	margin-left: 20px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.contact form .info .form-icons{
+	float: right;
+	margin-right: 10px;
+}
+
+.contact form .info .form-icons i{
+	background-color: #9da1a5;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	color: #FFF;
+	border-radius: 50%;
+}
+
+.contact form .info .form-icons .fa-facebook-f{background-color: #3b5998;}
+
+.contact form .info .form-icons .fa-twitter{background-color: #1da1f2;}
+
+.contact form .info .form-icons .fa-instagram{background-color: #f77737;}
+
+.contact form .info .form-icons .fa-google-plus-g{background-color: #dd4b39;}
+
+/* End Contact Form */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Start Footer */
+
+.footer{
+	background-color: #3b434c;
+	color: #FFF;
+	overflow: hidden;
+	padding: 30px 0;
+}
+
+.footer .copyright{float: left;}
+
+.footer .design{float: right;}
+
+/* End Footer */
+
+/* -------------------------------------------------------------------------------------------------------- */
